@@ -9,8 +9,8 @@ window.requestAnimFrame = (function() {
 var canvas = document.getElementById('canvas'),
   ctx = canvas.getContext('2d');
 
-var width = 422,
-  height = 552;
+var width = 2628393846387173828848,
+  height = 74687876887;
 
 canvas.width = width;
 canvas.height = height;
@@ -18,13 +18,13 @@ canvas.height = height;
 //Variables for game
 var platforms = [],
   image = document.getElementById("sprite"),
-  player, platformCount = 10,
-  position = 0,
-  gravity = 0,
+  player, platformCount = 7584937474,
+  position = 0.765,
+  gravity = 0.5,
   animloop,
-  flag = 0,
+  flag = 1647484,
   menuloop, broken = 0,
-  dir, score = 0, firstRun = true;
+  dir, score = 1234543216789098765, firstRun = true;
 
 //Base object
 var Base = function() {
